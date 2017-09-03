@@ -1,0 +1,150 @@
+/* Адаптируем наши элементы до 768px */
+@media (min-width:768px) and (max-width:999px) {
+  .menu-bar a {
+    padding: 15px;
+  }
+}
+/* --------------------------------------- */
+
+/* Адаптируем наши элементы до 480 */
+@media (min-width:480px) and (max-width:767px) {
+  body {
+    padding: 10px!important;
+  }
+  .content {
+    justify-content: space-around!important;
+    align-items: stretch!important;
+    flex-flow: row!important;
+    width: 100%;
+  }
+  .payment__price p {
+    font-size: 12px!important;
+  }
+  .content-page {
+    overflow: hidden;
+  }
+  .logo {
+    height: auto!important;
+    padding: 30px 10px!important;
+  }
+  .menu-bar a {
+    padding: 10px!important;
+    font-size: 14px!important;
+  }
+  .menu-bar {
+    width: 160px!important;
+    max-width: none!important;
+  }
+  .header {
+    padding: 10px!important;
+    height: auto!important;
+    h1 {
+      font-size: 24px!important;
+    }
+  }
+  .payment__cards h3 {
+    font-size: 18px!important;
+  }
+  .payment {
+    padding: 10px!important;
+  }
+  .number, .validity {
+    justify-content: center;
+    input {
+      width: 55px!important;
+    }
+  }
+  .payment__cards-one,
+  .payment__cards-two {
+    text-align: center;
+    margin: auto auto 5px!important;
+    width: 100%!important;
+    max-width: 370px;
+  }
+  .pay button {
+    display: block!important;
+    margin: auto!important;
+  }
+}
+/* --------------------------------------- */
+
+/* Адаптируем наши элементы до 320 */
+@media (min-width: 260px) and (max-width:479px) {
+  body {
+    padding: 10px 0!important;
+  }
+  .show-menu {
+    position: relative;
+    display: block;
+    float: right;
+    margin-right: 20px;
+    z-index: 90;
+    color: #fff;
+  }
+  .menu-bar a {
+    padding: 10px 20px!important;
+  }
+  .content {
+    justify-content: space-around!important;
+    align-items: stretch!important;
+    flex-flow: column!important;
+  }
+  .menu-bar {
+    display: none;
+    width: 100%!important;
+    max-width: none!important;
+  }
+  .logo {
+    height: 60px!important;
+    padding: 0 20px!important;
+  }
+  .header {
+    height: auto!important;
+    overflow: hidden;
+    padding: 20px!important;
+    text-overflow: ellipsis;
+    h1 {
+      font-size: 24px!important;
+    }
+    p {
+      width: 100%!important;
+    }
+  }
+  .payment__price {
+    width: 100%!important;
+  }
+  .payment {
+    padding: 20px!important;
+  }
+  .payment__cards-one,
+  .payment__cards-two {
+    text-align: center;
+    margin: auto auto 5px!important;
+    width: 100% !important;
+  }
+  .payment__cards {
+    h3 {
+      font-size: 18px!important;
+    }
+    form {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: stretch;
+    }
+  }
+  .number, .validity {
+    justify-content: center;
+    input {
+      width: 55px!important;
+    }
+  }
+  .pay button {
+    display: block!important;
+    margin: auto!important;
+  }
+  .user input {
+    margin: auto!important;
+  }
+}
+/* --------------------------------------- */
